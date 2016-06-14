@@ -7,7 +7,9 @@ ini_set('display_errors', 1); # temp?>
 <!doctype html>
 <head>
 	<title>GPU Stats - Calculate GFLOPS</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<?php
+	include('html-includes/default-css.php');
+	?>
 </head>
 <body>
 	<?php
