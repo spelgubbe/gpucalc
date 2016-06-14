@@ -13,7 +13,7 @@ ini_set('display_errors', 1); # temp?>
 	<?php
 	include('html-includes/navbar.php');
 	?>
-	Calculate single precision floating point performance:
+	Calculate Texture Fillrate of GPU:
 	<form class="gpustats" action="" method='POST'>
 			<input type="text" name="core_clock" placeholder="core clock" autocomplete="off">
 			GPU Core clock<br>
