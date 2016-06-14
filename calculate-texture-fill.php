@@ -36,8 +36,9 @@ ini_set('display_errors', 1); # temp?>
 	include('html-includes/default-footer.php');
 	?>
 </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<?php
+include('scripts/default-scripts.php');
+?>
 <script src="scripts/updateResult.js"></script>
 </body>
 </html>

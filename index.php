@@ -24,6 +24,8 @@ ini_set('display_errors', 1); # temp?>
 	?>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<?php
+include('scripts/default-scripts.php');
+?>
 </body>
 </html>
