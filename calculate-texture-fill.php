@@ -8,7 +8,7 @@ ini_set('display_errors', 1); # temp?>
 <head>
 	<title>GPU Stats - Calculate Texture Fillrate</title>
 	<?php
-	include('html-includes/default-css.php');
+	include('html-includes/default-stylesheets.php');
 	?>
 </head>
 <body>
