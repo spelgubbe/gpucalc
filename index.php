@@ -13,11 +13,14 @@ ini_set('display_errors', 1); # temp?>
 </head>
 <body>
 	<?php
-	include('html-includes/navbar.php');
+	include('html-includes/default-navbar.php');
 	?>
 	<div class="container">
 		<h1>GPU Stats calculator</h1>
 	</div>
+	<?php
+	include('html-includes/default-footer.php');
+	?>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">

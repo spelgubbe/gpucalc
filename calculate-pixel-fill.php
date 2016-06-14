@@ -13,7 +13,7 @@ ini_set('display_errors', 1); # temp?>
 </head>
 <body>
 	<?php
-	include('html-includes/navbar.php');
+	include('html-includes/default-navbar.php');
 	?>
 	Calculate pixel fillrate of GPU:
 	<form class="gpustats" action="" method='POST'>
@@ -31,6 +31,9 @@ ini_set('display_errors', 1); # temp?>
 	</form>
 	<div id="result">
 	</div>
+	<?php
+	include('html-includes/default-footer.php');
+	?>
 </body>
 <!--<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
