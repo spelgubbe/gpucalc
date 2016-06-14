@@ -1,3 +1,26 @@
-.navbar{
-	display:inline-block;margin:0;padding:0;list-style-type: none;
+/* 	Author: Jakob Kratz
+	Css mastermind (Not)
+*/
+
+*{
+	/* Disregard default margins & paddings */
+	margin:0;
+	padding:0;
+}
+
+/* Navigation bar */
+.navbar li{
+	display:inline-block; /* Columns instead of rows */
+	list-style-type: none;
+}
+.navbar a{
+	text-decoration: none; /* No underline on links */
+	padding:4px; /* More space to click */
+}
+
+/* Container (Content Wrapper) */
+.container{
+	display:block;
+	margin: 0 auto; /* Attempt at centering the content */
+	
 }
