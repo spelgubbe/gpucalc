@@ -36,7 +36,6 @@ ini_set('display_errors', 1); # temp?>
 	<?php
 	include('html-includes/default-footer.php');
 	?>
-</body>
 <!--<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
@@ -55,4 +54,5 @@ $(document).ready(function(){
 
 });
 </script>
+</body>
 </html>

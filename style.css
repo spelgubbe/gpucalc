@@ -6,8 +6,17 @@
 	/* Disregard default margins & paddings */
 	margin:0;
 	padding:0;
+
+	/* Padding and border included in element width  */
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
+/* Instead of using html/body tag */
+.wrapper{
+	max-width:960px;
+	width:100%;
+}
 /* Navigation bar */
 .navbar li{
 	display:inline-block; /* Columns instead of rows */
@@ -22,5 +31,5 @@
 .container{
 	display:block;
 	margin: 0 auto; /* Attempt at centering the content */
-	
+
 }
