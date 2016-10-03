@@ -1,40 +1,30 @@
 /* 	Author: Jakob Kratz
 	Css mastermind (Not)
+WEAK CSS GAME AF
+Colors: none
+
 */
 
-*{
+/**{
 	/* Disregard default margins & paddings */
-	margin:0;
+	/*margin:0;
 	padding:0;
 
 	/* Padding and border included in element width  */
-	box-sizing: border-box;
+	/*box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
 
 /* Instead of using html/body tag */
-.wrapper{
-	max-width:960px;
+/*html, body{
+	height:100%;
 	width:100%;
-	margin:0 auto; /* Attempt at centering the wrapper */
-}
-/* Navigation bar */
-.navbar ul{
-	margin: 0 auto;
-}
-.navbar li{
-	
-	display:inline; /* Columns instead of rows */
-	text-align: center; /* Centering the list items NOPE */
-	list-style-type: none;
-}
-.navbar a{
-	text-decoration: none; /* No underline on links */
-	padding:4px; /* More space to click */
+}*/
+body{
+	background-color: #dddddd;
 }
 
-/* Container (Content Divider?) */
-.container{
-	display:block;
-	margin: 20px 20px;
+#result{
+	font-style: bold;
+	font-size: 7em;
 }

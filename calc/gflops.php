@@ -1,9 +1,10 @@
 <?php
+/* TODO: javascript query on unit change, so that a new request isn't needed just to change unit. */
 /* Only to run if post data is present */
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 	
 	/* Functions */
-	include('../functions.php');
+	include('../functions/calculations.php');
 
 	/* What unit to use */
 	$unitDivs = array(

@@ -3,7 +3,7 @@
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 	
 	/* Functions */
-	include('../functions.php');
+	include('../functions/calculations.php');
 
 	/* What unit to use */
 	$unitDivs = array(
