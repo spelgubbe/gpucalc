@@ -1,3 +1,5 @@
+RedirectMatch 404 /kz
+
 php_flag zlib.output_compression On
 php_value zlib.output_compression_level 3
 

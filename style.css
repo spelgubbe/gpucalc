@@ -1,8 +1,5 @@
-/* 	Author: Jakob Kratz
-	Css mastermind (Not)
-WEAK CSS GAME AF
+/*
 Colors: none
-
 */
 
 /**{
@@ -26,5 +23,5 @@ body{
 
 #result{
 	font-style: bold;
-	font-size: 7em;
+	font-size: 5em;
 }

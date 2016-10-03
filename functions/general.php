@@ -4,7 +4,7 @@ function file_active($pagename){
 	if ($active === $pagename) echo "active";
 }
 $filename = "kz/counter.kz";
-$ip_filename = "kz/ip.kz";
+$ip_filename = "kz/ip.kz"; // logging unique IPs
 function countView(){
 	$ip = $_SERVER['REMOTE_ADDR'];
 	global $filename, $ip_filename;
